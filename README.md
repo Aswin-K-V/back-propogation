@@ -69,9 +69,3 @@ Calling `backward()` performs a topological traversal of the graph and propagate
 
 `neural_network.py` uses these scalar `Value` objects as trainable weights and biases. Because every neuron output is built from `Value` operations, the full network becomes differentiable automatically.
 
-## Notes
-
-- ReLU is used on hidden layers.
-- The output layer is linear.
-- Random initialization is seeded for reproducible training.
-- This code is intentionally minimal and aimed at learning, not performance.
